@@ -1,0 +1,250 @@
+/* Nav Bar */
+#logo {}
+
+#sm {
+    font-size: x-small;
+    color: white;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+#sidebar {
+    margin-left: 35%;
+}
+
+/* sec 1 */
+#bgimg {
+
+    width: 100%;
+    height: 100%;
+}
+
+.tittle {
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 700px;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 8px;
+    color: black;
+}
+
+.tittle p {
+    letter-spacing: 2px;
+}
+
+/* .btn{
+    border: 2px solid rgba(185, 60, 60, 0.788);
+    transform: skew(10deg);
+    width: 150px;
+   background-color: rgba(185, 60, 60, 0.788);
+} */
+
+#btn1 p {
+    border: 2px solid rgba(185, 60, 60, 0.788);
+    transform: skew(10deg);
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+}
+
+#btn1 svg {
+    margin-left: 30px;
+}
+
+.btn2 {
+
+    margin-top: -55px;
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.btn2:hover {
+    background-color: rgba(185, 60, 60, 0.788);
+}
+
+/* sec2 */
+/* .sec2{
+    background-color: rgb(14, 14, 65);
+    height: 650px;
+} */
+.sec2 {
+    height: auto;
+    background-color: rgb(11, 11, 43);
+}
+
+#sec2row {
+    margin-top: 280px;
+
+
+}
+
+#sec2card,#sec3card{
+    width: 20rem;
+    height: 220px;
+    background-color: rgba(67, 67, 100, 0.493);
+}
+
+.card {
+    transform: skew(-10deg);
+    background-color: rgb(58, 58, 136);
+
+}
+
+/* sec 3 */
+#sec3txt {
+    margin-top: -400px;
+}
+
+#sec3img {
+    height:500px;
+     width: 100%;
+}
+#sec3row {
+    margin-top:10px;
+}
+/* sec 4 */
+.sec4{
+    height: 370px;
+    width: 100%;
+  
+    background-color:  rgb(11, 11, 43);
+}
+#sec4txt{
+   padding-top: 70px;
+}
+.sec4 .para{
+    color: white;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.sec4 a{
+    color: white;
+
+}
+.sec4 a:hover{
+    color: rgb(240, 96, 96);
+}
+/* sec 5 */
+.sec5 img{
+    height: 600px;
+    width: 100%;
+    margin-top: -40px;
+}
+.sec5 p{
+    margin-top: -400px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    
+}
+.sec5 button{
+ margin-left: 580px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.sec5 button:hover{
+    box-flex-group: brown;
+}
+/* sec 6 */
+
+#footerimg{
+    margin-top: 200px;
+    height: auto;
+    width: 100%;
+}
+#sec6row{
+    margin-top: -350px;
+}
+#sec6card{
+    width: 8rem;
+    height: 6rem;
+    background-color: rgba(95, 95, 156, 0.295);
+    padding: 10px;
+}
+svg{
+
+    color: white;
+}
+#sec6text{
+font-size: 15px;
+}
+#fb{
+    margin-left: -60px;
+    font-weight: 500;
+}
+.footer{
+    background-color: rgba(40, 40, 82, 0.877);
+   
+    height: 10%;
+    width: 100%;
+    margin-top: 160px;
+    margin-left: -120px;
+    position: absolute;
+}
+.footer p{
+    justify-content: center;
+    color: white;
+    padding: 13px;
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar {
+        width: 320px;
+    }
+
+    .sec1 #bgimg {
+        height: 600px;
+    }
+
+    .tittle {
+        margin-top: -500px;
+        text-align: center;
+        justify-content: center;
+        width: 180px;
+        color: black;
+    }
+
+    h1 {
+        font-size: medium;
+    }
+
+    .btn1 {
+        margin-left: -80px;
+        width: auto;
+
+    }
+
+    #btn1 p {
+        border: 2px solid rgba(185, 60, 60, 0.788);
+        transform: skew(8deg);
+
+
+    }
+
+    .btn2 {
+        margin-left: 70px;
+        width: 10%;
+    }
+
+    .card {
+        transform: skew(-7deg);
+        background-color: rgb(58, 58, 136);
+
+
+    }
+
+    /* sec 2 */
+    #sec2row {
+        margin-top: -20px;
+    }
+
+    #sec2card {
+        width: 240px;
+        height: 240px;
+        margin-left: 40px;
+        background-color: rgba(67, 67, 100, 0.493);
+    }
+    /* sec 3 */
+}
